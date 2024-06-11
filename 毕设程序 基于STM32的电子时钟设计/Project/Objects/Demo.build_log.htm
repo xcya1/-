@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xc 1111111111111111, nb, LIC=RC93N-YEDY0-45BT5-GNFFY-J9CM0-UUGNF
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DCM.DLL V1.16.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.32.0.0
+ 
+<h2>Project:</h2>
+C:\Users\34812\Desktop\±œ…Ë Õ¯¬Á ±º‰\Project\Demo.uvprojx
+Project File Date:  04/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling main.c...
+..\Hardware\inc\oled.h(50): warning:  #1295-D: Deprecated declaration OLED_DrawGround - give arg types
+  void OLED_DrawGround();
+..\Hardware\inc\oled.h(52): warning:  #1295-D: Deprecated declaration OLED_DrawCloud - give arg types
+  void OLED_DrawCloud();
+..\Hardware\inc\oled.h(55): warning:  #1295-D: Deprecated declaration OLED_DrawDino - give arg types
+  void OLED_DrawDino();
+..\Hardware\inc\oled.h(60): warning:  #1295-D: Deprecated declaration OLED_DrawCactus - give arg types
+  void OLED_DrawCactus();
+..\Hardware\inc\oled.h(66): warning:  #1295-D: Deprecated declaration OLED_DrawRestart - give arg types
+  void OLED_DrawRestart();
+..\Hardware\inc\oled.h(69): warning:  #1295-D: Deprecated declaration OLED_DrawCover - give arg types
+  void OLED_DrawCover();
+..\Hardware\inc\WIFI.h(46): warning:  #1295-D: Deprecated declaration acquire_weather_message - give arg types
+  void acquire_weather_message();
+..\Hardware\inc\WIFI.h(47): warning:  #1295-D: Deprecated declaration acquire_time_message - give arg types
+  void acquire_time_message();
+..\System\inc\USART1_su30t.h(16): warning:  #1295-D: Deprecated declaration USART1_send_weather_message - give arg types
+  void USART1_send_weather_message();
+..\System\inc\USART1_su30t.h(19): warning:  #1295-D: Deprecated declaration USART1_send_time_message - give arg types
+  void USART1_send_time_message();
+..\System\inc\USART1_su30t.h(20): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\System\inc\TIM_2.h(6): warning:  #1295-D: Deprecated declaration TIM_2_Init - give arg types
+  void TIM_2_Init();
+..\Hardware\inc\BEEP.h(6): warning:  #1295-D: Deprecated declaration BEEP_Init - give arg types
+  void BEEP_Init();
+..\Hardware\inc\BEEP.h(7): warning:  #1295-D: Deprecated declaration BEEP_ON - give arg types
+  void BEEP_ON();
+..\Hardware\inc\BEEP.h(8): warning:  #1295-D: Deprecated declaration BEEP_OFF - give arg types
+  void BEEP_OFF();
+..\UI\inc\set_time_ui.h(5): warning:  #1295-D: Deprecated declaration set_time - give arg types
+  void set_time();
+..\UI\inc\alarm_clock_ui.h(2): warning:  #2775-D: white space is required between the macro name "__ALARM_CLOCK" and its replacement text
+  #define __ALARM_CLOCK-UI_H
+..\UI\inc\alarm_clock_ui.h(9): warning:  #1295-D: Deprecated declaration set_alarm_clock - give arg types
+  int set_alarm_clock();
+..\UI\inc\alarm_clock_ui.h(12): warning:  #1295-D: Deprecated declaration alarm_clock_ui - give arg types
+  void  alarm_clock_ui();
+..\UI\inc\alarm_clock_ui.h(14): warning:  #1295-D: Deprecated declaration alarm_clock_open_or_close - give arg types
+  void alarm_clock_open_or_close();
+..\UI\inc\stop_watch_ui.h(5): warning:  #1295-D: Deprecated declaration stop_watch - give arg types
+  int stop_watch();
+..\UI\inc\weather_ui.h(7): warning:  #1295-D: Deprecated declaration weather_ui - give arg types
+  int  weather_ui();
+..\User\src\main.c(25): warning:  #1295-D: Deprecated declaration time_show - give arg types
+  void time_show();
+..\User\src\main.c(26): warning:  #1295-D: Deprecated declaration weather_show - give arg types
+  void weather_show();
+..\User\src\main.c(179): warning:  #175-D: subscript out of range
+  				if(USART1_RxPacket[2]==0x01)
+..\User\src\main.c: 25 warnings, 0 errors
+linking...
+Program Size: Code=38720 RO-data=13420 RW-data=2504 ZI-data=1057568  
+FromELF: creating hex file...
+".\Objects\Demo.axf" - 0 Error(s), 25 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>
